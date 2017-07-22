@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollViewImageView">
+        <attr name="backgroundImg" format="reference" />
+        <attr name="scrollSpeed" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MCContentScrollView">
+        <attr name="minOffSetY" format="dimension" />
+        <attr name="maxOffSetY" format="dimension"/>
+    </declare-styleable>
+</resources>
