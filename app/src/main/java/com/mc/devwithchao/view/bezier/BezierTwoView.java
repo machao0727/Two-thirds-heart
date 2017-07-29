@@ -22,9 +22,10 @@ public class BezierTwoView extends View {
     private int mWidth;
     private int mHeight;
     private Paint mPaint;
-    private List<QuadView> rightQuad = new ArrayList<>();
-    private List<QuadView> leftQuad = new ArrayList<>();
+    private List<QuadView> rightQuad ;
+    private List<QuadView> leftQuad ;
     private int radius;
+    private Path path;
 
     public BezierTwoView(Context context) {
         super(context);
@@ -42,9 +43,9 @@ public class BezierTwoView extends View {
     }
 
     private void initView() {
-        mPaint = new Paint();
+        mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setStyle(Paint.Style.FILL);
-        mPaint.setStrokeWidth(10);
+        mPaint.setStrokeWidth(3);
         mPaint.setColor(Color.RED);
     }
 
@@ -63,38 +64,44 @@ public class BezierTwoView extends View {
         Point rightTop = new Point(mWidth, 0);
         Point rightBottom = new Point(mWidth, mHeight);
         Point leftBottom = new Point(0, mHeight);
-        for (int i = 0; i < 4; i++) {
-            QuadView right = new QuadView();
-            right.setStartY(i * 20 + i * radius + 20);
-            right.setStartX(mWidth);
-            right.setCenterX(mWidth - radius / 2);
-            right.setCenterY(i * 20 + i * radius + radius / 2 + 20);
-            right.setEndY(i * 20 + i * radius + radius + 20);
-            right.setEndX(mWidth);
-            QuadView left = new QuadView();
-            left.setEndX(0);
-            left.setEndY(i * 20 + i * radius + 20);
-            left.setCenterX(radius / 2);
-            left.setCenterY(i * 20 + i * radius + 20 + radius / 2);
-            left.setStartX(0);
-            left.setStartY(i * 20 + i * radius + 20 + radius);
-            rightQuad.add(right);
-            leftQuad.add(left);
+        if (leftQuad==null||rightQuad==null){//onDraw会多次调用，这里判空，防止多次添加数据,导致bug
+            leftQuad=new ArrayList<>();
+            rightQuad=new ArrayList<>();
+            for (int i = 0; i < 4; i++) {
+                QuadView right = new QuadView();
+                right.setStartY(i * 20 + i * radius + 20);
+                right.setStartX(mWidth);
+                right.setCenterX(mWidth - radius / 2);
+                right.setCenterY(i * 20 + i * radius + radius / 2 + 20);
+                right.setEndY(i * 20 + i * radius + radius + 20);
+                right.setEndX(mWidth);
+                QuadView left = new QuadView();
+                left.setEndX(0);
+                left.setEndY(i * 20 + i * radius + 20);
+                left.setCenterX(radius / 2);
+                left.setCenterY(i * 20 + i * radius + 20 + radius / 2);
+                left.setStartX(0);
+                left.setStartY(i * 20 + i * radius + 20 + radius);
+                rightQuad.add(right);
+                leftQuad.add(left);
+            }
         }
-        Path path = new Path();
+        path = new Path();
+        path.setFillType(Path.FillType.EVEN_ODD);
         path.moveTo(leftTop.x, leftTop.y);
-        path.lineTo(rightTop.x, rightTop.y);
-        for (int i = 0; i < rightQuad.size(); i++) {
-            path.lineTo(rightQuad.get(i).getStartX(), rightQuad.get(i).getStartY());
-            path.quadTo(rightQuad.get(i).getCenterX(), rightQuad.get(i).getCenterY(), rightQuad.get(i).getEndX(), rightQuad.get(i).getEndY());
-        }
-        path.lineTo(rightBottom.x, rightBottom.y);
-        path.lineTo(leftBottom.x, leftBottom.y);
-        for (int i = leftQuad.size() - 1; i >= 0; i--) {
+        for (int i = 0; i < leftQuad.size(); i++) {
             path.lineTo(leftQuad.get(i).getStartX(), leftQuad.get(i).getStartY());
             path.quadTo(leftQuad.get(i).getCenterX(), leftQuad.get(i).getCenterY(), leftQuad.get(i).getEndX(), leftQuad.get(i).getEndY());
         }
+        path.lineTo(leftBottom.x, leftBottom.y);
+        path.lineTo(rightBottom.x, rightBottom.y);
+        for (int i = rightQuad.size() - 1; i >= 0; i--) {
+            path.lineTo(rightQuad.get(i).getStartX(), rightQuad.get(i).getStartY());
+            path.quadTo(rightQuad.get(i).getCenterX(), rightQuad.get(i).getCenterY(), rightQuad.get(i).getEndX(), rightQuad.get(i).getEndY());
+        }
+        path.lineTo(rightTop.x, rightTop.y);
         path.close();
+
         canvas.drawPath(path, mPaint);
     }
 
