@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".view.TreeViewActivity">
         </activity>
+        <activity android:name=".view.BezierActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -23,4 +23,10 @@
         android:onClick="treeview"
         android:text="二叉树视图"
         android:layout_height="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:onClick="bezier"
+        android:text="贝塞尔曲线"
+        android:layout_height="40dp"/>
 </LinearLayout>

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mc.devwithchao.view.BezierActivity;
 import com.mc.devwithchao.view.ContentScrollViewActivity;
 import com.mc.devwithchao.view.ScrollImageviewActivity;
 import com.mc.devwithchao.view.TreeViewActivity;
@@ -27,7 +28,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ContentScrollViewActivity.class));
     }
 
-    public void treeview(View view){
+    public void treeview(View view) {
         startActivity(new Intent(this, TreeViewActivity.class));
+    }
+
+    public void bezier(View view) {
+        startActivity(new Intent(this, BezierActivity.class));
     }
 }
