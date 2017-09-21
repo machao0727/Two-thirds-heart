@@ -2,121 +2,121 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8782c14bc9854093b250fa22a8e4b220b2a154b0">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\instant-run_27f3697d4a8a1669850330492d61dd76550d23f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\git\Two-thirds-heart\app\libs\nineoldandroids-2.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_5916aa346c89f6af9b1bd4e01a4cfd05c1e9a8fb\classes.dex" />
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_5916aa346c89f6af9b1bd4e01a4cfd05c1e9a8fb.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_3d52e29b3d76f0d75bb551b359272ad30b8a1cba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="32c25b323bb4c75d8cec1ce72e5f87fbaa666941">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27585d1936d644926e0a178d98599694fb88ac7e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_d7c6b08d3312d1c5aa44283dd87331bcb4c85aa0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_0dd8449ea31f5d60a3262dff47fa06ac5727b23a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_b0472fb49d1007516f4a29117d87f6572ff85e52\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2544a9efe6bafe25846c450b4ae65bd8af3f4725">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_27f3697d4a8a1669850330492d61dd76550d23f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_51ebb4f18e5e9375ddb8915c1b461d94a3920ac5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_3064978de73de1ed1f561cb87f887f8b21ccf65a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_6540600037f627704444b04797e3ae7892fad422\classes.dex" />
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_6540600037f627704444b04797e3ae7892fad422.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9079feebf35b3a1d7eff4ac7619d356b1352f0e3">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_27585d1936d644926e0a178d98599694fb88ac7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_64ba9fe6716729a867edf6733125d7a563df82ae\classes.dex" />
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_64ba9fe6716729a867edf6733125d7a563df82ae.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_dfab7c51107ec194f158284922d21b460fef8b2e\classes.dex" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_3064978de73de1ed1f561cb87f887f8b21ccf65a.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_b0472fb49d1007516f4a29117d87f6572ff85e52.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_029e1217d31f0b4deb0b63955fd12f1854332848\classes.dex" />
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_029e1217d31f0b4deb0b63955fd12f1854332848.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_d7c6b08d3312d1c5aa44283dd87331bcb4c85aa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_51ebb4f18e5e9375ddb8915c1b461d94a3920ac5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_dfab7c51107ec194f158284922d21b460fef8b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_0dd8449ea31f5d60a3262dff47fa06ac5727b23a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\git\Two-thirds-heart\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="G:\git\Two-thirds-heart\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_3d52e29b3d76f0d75bb551b359272ad30b8a1cba.jar" />
     </item>
 
 </items>

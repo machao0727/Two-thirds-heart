@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
-    density="xxhdpi"
+    api-level="19"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="19541990132910"
+    timestamp="23884126466565"
     token="9010190585908986786"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="665" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="332" />
     <task
         name="verifier"
-        duration="0" />
+        duration="89" />
 
     <artifact
-        location="G:\git\Two-thirds-heart\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="G:\git\Two-thirds-heart\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="19441978314308"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="23884126466565"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="G:\git\Two-thirds-heart\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="19541990132910"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="G:\git\Two-thirds-heart\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

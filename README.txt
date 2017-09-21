@@ -1,4 +1,0 @@
-scrolliamgeview
-contentscrollview
-newtreeview
-viewpagerIndicator
