@@ -4,4 +4,4 @@
     contentscrollview
     newtreeview
     viewpagerIndicator
-    ![](https://github.com/machao0727/Two-thirds-heart/samplegif/sample.gif)
+    ![](https://github.com/machao0727/Two-thirds-heart/raw/master/samplegif/sample.gif)
