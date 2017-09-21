@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewpagerIndicator">
+        <attr name="MC_dividerColor" format="reference|color"/>
+        <attr name="MC_dividerWidth" format="reference|dimension"/>
+    </declare-styleable>
+</resources>

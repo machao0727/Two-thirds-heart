@@ -1,0 +1,7 @@
+#Thu Sep 21 14:22:06 CST 2017
+base.0=G\:\\git\\Two-thirds-heart\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_27f3697d4a8a1669850330492d61dd76550d23f5
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=G\:\\git\\Two-thirds-heart\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_27585d1936d644926e0a178d98599694fb88ac7e\\classes.dex
+base.1=G\:\\git\\Two-thirds-heart\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_27585d1936d644926e0a178d98599694fb88ac7e
+file.0=G\:\\git\\Two-thirds-heart\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_27f3697d4a8a1669850330492d61dd76550d23f5\\classes.dex

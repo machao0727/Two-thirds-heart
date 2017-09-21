@@ -1,3 +1,4 @@
 scrolliamgeview
 contentscrollview
 newtreeview
+viewpagerIndicator

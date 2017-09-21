@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".view.BezierActivity">
         </activity>
+        <activity android:name=".view.IndicatorActivity">
+        </activity>
     </application>
 
 </manifest>
