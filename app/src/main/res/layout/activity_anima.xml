@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mc.devwithchao.view.AnimaActivity">
+    <com.mc.devwithchao.view.tickingview.TickView
+        android:id="@+id/tickview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:backgroundColor="@color/colorAccent"
+        app:duration="500"
+        app:lineColor="@color/white"
+        app:lineWidth="4dp"
+        app:radius="25dp">
+    </com.mc.devwithchao.view.tickingview.TickView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startanim"
+        android:text="开始动画"/>
+    <com.mc.devwithchao.view.circledisperseview.CircleDisperseView
+        android:id="@+id/circlview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:cir_backgroundColor="@color/colorPrimary"
+        app:cir_displayModeSmall="true"
+        app:cir_duration="500"
+        app:cir_radius="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="open"
+        android:text="OPEN"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="close"
+        android:text="CLOSE"/>
+    <com.mc.devwithchao.view.bookview.BookView
+        android:id="@+id/bookview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:bv_LineColor="@color/colorAccent"
+        app:bv_LineSize="2dp"
+        app:bv_radius="45dp"/>
+
+    <SeekBar
+        android:id="@+id/seekbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"/>
+</LinearLayout>

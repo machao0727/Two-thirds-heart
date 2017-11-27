@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mc.devwithchao.view.AnimaActivity;
 import com.mc.devwithchao.view.BezierActivity;
 import com.mc.devwithchao.view.ContentScrollViewActivity;
 import com.mc.devwithchao.view.IndicatorActivity;
 import com.mc.devwithchao.view.ScrollImageviewActivity;
+import com.mc.devwithchao.view.TitleRecyclerActivity;
 import com.mc.devwithchao.view.TreeViewActivity;
 import com.mc.devwithchao.view.newtreeview.ScreenUtils;
 
@@ -39,5 +41,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void indicator(View view) {
         startActivity(new Intent(this, IndicatorActivity.class));
+    }
+
+    public void titleview(View view) {
+        startActivity(new Intent(this, TitleRecyclerActivity.class));
+    }
+
+    public void anima(View view) {
+        startActivity(new Intent(this, AnimaActivity.class));
     }
 }

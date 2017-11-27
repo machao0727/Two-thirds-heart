@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+        </android.support.v7.widget.RecyclerView>
+        <com.mc.devwithchao.view.hastitlerecycleview.TitleView
+            android:id="@+id/titleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:LayoutHeight="44dp"
+            app:MC_textColor="@color/textblack"
+            app:MC_background="@color/white"
+            app:MC_textSize="14sp"
+            app:paddingleft="15dp">
+
+        </com.mc.devwithchao.view.hastitlerecycleview.TitleView>
+
+        <com.mc.devwithchao.view.hastitlerecycleview.CityView.LetterView
+            android:id="@+id/indexBar"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:pressBackground="#333333"
+            app:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSideBarHint"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

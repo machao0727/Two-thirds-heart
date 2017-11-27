@@ -9,4 +9,39 @@
         <attr name="minOffSetY" format="dimension" />
         <attr name="maxOffSetY" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="IndexBar">
+        <attr name="textSize" format="dimension"/>
+        <attr name="pressBackground" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleView">
+        <attr name="LayoutHeight" format="dimension"/>
+        <attr name="paddingleft" format="dimension"/>
+        <attr name="MC_textSize" format="dimension"/>
+        <attr name="MC_textColor" format="reference"/>
+        <attr name="MC_background" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TickView">
+        <attr name="duration" format="integer"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="backgroundColor" format="reference"/>
+        <attr name="lineColor" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleDisperseView">
+        <attr name="cir_duration" format="integer"/>
+        <attr name="cir_radius" format="dimension"/>
+        <attr name="cir_backgroundColor" format="reference"/>
+        <attr name="cir_displayModeSmall" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="BookView">
+        <attr name="bv_LineColor" format="reference"/>
+        <attr name="bv_LineSize" format="dimension"/>
+        <attr name="bv_radius" format="dimension"/>
+    </declare-styleable>
 </resources>

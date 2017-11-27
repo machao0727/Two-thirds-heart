@@ -25,6 +25,9 @@
         </activity>
         <activity android:name=".view.IndicatorActivity">
         </activity>
+        <activity android:name=".view.TitleRecyclerActivity"/>
+        <activity android:name=".view.AnimaActivity">
+        </activity>
     </application>
 
 </manifest>
