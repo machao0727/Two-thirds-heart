@@ -9,4 +9,5 @@
     tickview
     circledisperserview
     ![](https://github.com/machao0727/Two-thirds-heart/raw/master/samplegif/sample.gif)
-      ![](https://github.com/machao0727/Two-thirds-heart/raw/master/samplegif/sample2.gif)
+    <br/>
+    ![](https://github.com/machao0727/Two-thirds-heart/raw/master/samplegif/sample2.gif)
